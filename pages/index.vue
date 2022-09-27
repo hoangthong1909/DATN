@@ -6,7 +6,7 @@
 export default {
   name: 'IndexPage',
   mounted() {
-    console.log('======', this.$config)
+    // console.log('======', this.$config)
   },
 }
 </script>

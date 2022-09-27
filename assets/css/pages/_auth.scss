@@ -1,0 +1,64 @@
+.layer-auth {
+  width: 100%;
+  min-height: 100vh;
+
+  .layer-auth-form {
+  }
+  .auth-title {
+    font-weight: 800;
+    font-size: 32px;
+  }
+  .auth-description {
+    color: #959595;
+    font-size: 16px;
+  }
+  .auth-form {
+    padding: 100px 80px;
+    min-width: 520px;
+    max-width: 520px;
+    background: #ffffff;
+    box-shadow: 0 0.5px 60px rgba(108, 94, 94, 0.05);
+
+    &.sign-up {
+      padding: 40px 80px;
+    }
+
+    .form-label {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .ant-form-item {
+      margin-bottom: 4px;
+    }
+  }
+
+  .auth-btn {
+    height: 40px !important;
+  }
+
+  .social-items {
+    box-shadow: 0 0.5px 4px rgb(0 0 0 / 50%);
+    border-radius: 50%;
+  }
+}
+
+.forgot-check {
+  padding: 50px 0 24px;
+}
+
+.color-blue-1 {
+  color: #008eff;
+}
+
+.top-50 {
+  top: 50px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.display-flex {
+  display: flex !important;
+}

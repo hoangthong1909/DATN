@@ -1,3 +1,86 @@
 {
-  "hello": "Welcome Nuxt JS"
+  "hello": "Welcome AE NHA PRO",
+  "required_message": "This field is required !",
+  "auth": {
+    "sign_in": "Sign In",
+    "sign_in_description": "Please enter the information below",
+    "sign_up_account": "Register Account",
+    "social_account": "Or sign in by",
+    "forgot_password": "Forgot password",
+    "change_password": "Change password",
+    "sign_up": "Sign Up",
+    "continue": "Continue",
+    "back": "Back",
+    "forgot_password_message": "Password reset link has been sent to your email",
+    "name": "Name",
+    "username_email": "Username/Email",
+    "middle_name": "Surname and middle name",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "re_password": "Repeat password",
+    "new_password": "New password",
+    "old_password": "Old password",
+    "re_new_password": "Repeat new password",
+    "reset_password": "Save Password",
+    "add_user": "Invite user",
+    "role": "Role",
+    "created_at": "Created at",
+    "action": "Action",
+    "resource_statistics": "Resource statistics",
+    "cost_statistics": "Cost statistics",
+    "cancel": "Cancel",
+    "save": "Save",
+    "agree": "Agree",
+    "leave_project": "Leave project",
+    "remove_project": "Remove project?",
+    "remove_project_title": "Remove project",
+    "remove_project_user": "Remove user?",
+    "leave_project_title": "Leave Project?",
+    "leave_project_content": "Are you sure you want to leave project: ",
+    "list_user": "List user",
+    "send_invite": "Send invite",
+    "project": {
+      "project": "Information Project",
+      "project_detail": "View detail project",
+      "management_project": "Management Project",
+      "management_user": "Management User",
+      "name": "Name",
+      "description": "Description",
+      "type": "Resource",
+      "amount": "Amount",
+      "total_cost": "Total cost",
+      "placeholder": {
+        "name": "Enter name",
+        "description": "Enter Description"
+      },
+      "message": {
+        "success_create": "Successfully created project",
+        "success_edit": "Successfully updated project",
+        "success_delete": "Successfully deleted project",
+        "success_delete_user": "Successfully deleted user",
+        "confirm_create": "Are you sure you want to create project",
+        "confirm_edit": "Are you sure you want to edit project",
+        "confirm_delete": "Are you sure you want to delete project",
+        "confirm_delete_user": "Are you sure you want to delete user"
+      }
+    },
+    "placeholder": {
+      "role": "Choose Role",
+      "username": "Enter Username",
+      "password": "Enter Password",
+      "new_password": "Enter new password",
+      "old_password": "Enter old password",
+      "re_new_password": "Enter repeat new password",
+      "name": "Enter Name",
+      "middle_name": "Enter Surname and middle name",
+      "email": "Enter Email",
+      "re_password": "Enter repeat password",
+      "username_email": "Enter Username/Email"
+    },
+    "message": {
+      "change_password": "Change password successfully!",
+      "send_invite": "Send invite successfully!"
+    }
+  }
 }

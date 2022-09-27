@@ -1,3 +1,86 @@
 {
-  "hello": "Chào mừng đến với Nuxt JS"
+  "hello": "Chào mừng đến với AE NHA PRO",
+  "required_message": "Thông tin bắt buộc",
+  "auth": {
+    "sign_in": "Đăng nhập",
+    "sign_in_description": "Vui lòng nhập các thông tin bên dưới",
+    "sign_up_account": "Đăng kí tài khoản",
+    "social_account": "Hoặc đăng nhập bằng",
+    "forgot_password": "Quên mật khẩu",
+    "change_password": "Thay đổi mật khẩu",
+    "sign_up": "Đăng kí",
+    "continue": "Tiếp tục",
+    "back": "Trờ về",
+    "forgot_password_message": "Đường dẫn đặt lại mật khẩu đã được gửi tới email của bạn",
+    "name": "Tên",
+    "username_email": "Username/Email",
+    "middle_name": "Họ và tên đệm",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "re_password": "Nhập lại mật khẩu",
+    "new_password": "Mật khẩu mới",
+    "old_password": "Mật khẩu hiện tại",
+    "re_new_password": "Nhập lại mật khẩu mới",
+    "reset_password": "Lưu mật khẩu",
+    "add_user": "Mời người dùng",
+    "role": "Role",
+    "created_at": "Ngày tham gia",
+    "action": "Hành động",
+    "resource_statistics": "Thống kê tài nguyên",
+    "cost_statistics": "Thông kê chi phí",
+    "cancel": "Hủy",
+    "agree": "Đồng ý",
+    "save": "Lưu thông tin",
+    "leave_project": "Rời project",
+    "remove_project": "Xóa project?",
+    "remove_project_title": "Xóa project",
+    "remove_project_user": "Xóa người dùng?",
+    "leave_project_title": "Rời khỏi dự án?",
+    "leave_project_content": "Bạn có chắc chắn muốn rời dự án: ",
+    "list_user": "Danh sách thành viên",
+    "send_invite": "Gửi lời mời",
+    "project": {
+      "project": "Thông tin dự án",
+      "project_detail": "Xem chi tiết dự án",
+      "management_project": "Quản lý dự án",
+      "management_user": "Quản lý thành viên",
+      "name": "Tên",
+      "description": "Mô tả",
+      "type": "Tài nguyên",
+      "amount": "Số lượng",
+      "total_cost": "Tổng chi phí các loại tài nguyên",
+      "placeholder": {
+        "name": "Nhập tên",
+        "description": "Nhập mô tả"
+      },
+      "message": {
+        "success_create": "Tạo thành công project",
+        "success_edit": "Cập nhật thành công project",
+        "success_delete": "Xóa thành công project",
+        "success_delete_user": "Xóa thành công user",
+        "confirm_create": "Bạn chắc chắn muốn tạo project",
+        "confirm_edit": "Bạn chắc chắn muốn chỉnh sửa project ",
+        "confirm_delete": "Bạn chắc chắn muốn xóa project",
+        "confirm_delete_user": "Bạn chắc chắn muốn xóa người dùng"
+      }
+    },
+    "placeholder": {
+      "role": "Chọn Role",
+      "username": "Nhập Username",
+      "password": "Nhập Password",
+      "new_password": "Nhập mật khẩu mới",
+      "old_password": "Nhập mật khẩu hiện tại",
+      "re_new_password": "Nhập lại mật khẩu mới",
+      "name": "Nhập tên",
+      "middle_name": "Nhập họ và tên",
+      "email": "Nhập email",
+      "re_password": "Nhập lại mật khẩu",
+      "username_email": "Nhập Username/Email"
+    },
+    "message": {
+      "change_password": "Thay đổi mật khẩu thành công!",
+      "send_invite": "Gửi lời mời thành công!"
+    }
+  }
 }
