@@ -15,9 +15,14 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,vue}": "eslint --cache",
-    "*.{css,scss,sass,html,vue}": "stylelint",
-    "*.**": "prettier --check --ignore-unknown"
+    "*.{js,tsx}": [
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "*.{js, jsx, json, html, css}": [
+      "./node_modules/.bin/prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",

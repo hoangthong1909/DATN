@@ -122,26 +122,45 @@ export default {
           },
         ],
       },
-      form: {},
+      form: {
+        username: '',
+        password: ''
+      },
+      check:false
     }
   },
   // auth: false,
   mounted() {
-    // this.$auth.login()
+    // this.apiLogin()
   },
   methods: {
     handleSignIn() {
       this.$refs.createForm.validate((valid) => {
         if (valid) {
-          // this.apiCreate()
-          this.$notification.success({
-            message: 'Đăng nhập thành công',
-            placement: 'bottomRight',
-          })
+          this.apiLogin()
         } else {
           return false
         }
       })
+    },
+   async apiLogin(){
+      const username=this.form.username
+      const password=this.form.password
+     await this.$repositories.test.index().then((data=>{
+       const check = data.data.some(item=> item.name ===username && item.password ===password)
+       if(check){
+         console.log((data.filter((item=> item.name ===username && item.password ===password))),'===')
+         return this.$notification.success({
+           message: 'Đăng nhập thành công',
+           placement: 'bottomRight',
+         })
+       }else {
+       return this.$notification.error({
+           message: 'Đăng nhập thất bại ',
+           placement: 'bottomRight',
+         })
+       }
+    }))
     },
   },
 }

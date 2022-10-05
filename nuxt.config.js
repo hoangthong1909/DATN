@@ -63,9 +63,8 @@ export default {
   // Proxy configurations
   proxy: {
     '/api/': {
-      target:
-        process.env.BACKEND_URL || 'https://jsonplaceholder.typicode.com/',
-      pathRewrite: { '^/api/': '/users' },
+      target: process.env.BACKEND_URL || 'https://aenhapro.herokuapp.com/',
+      pathRewrite: { '^/api/': '' },
     },
   },
 
